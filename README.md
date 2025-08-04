@@ -3,7 +3,6 @@
 ## Project Overview
 This is a console-based grid game implemented in C++ where the player controls a character `X` navigating through a 32x32 board filled with barriers and two ghosts (`G` and `K`). The goal is to avoid the ghosts while collecting points by moving over free spaces. The game features multiple difficulty levels that affect ghost movement behavior.
 
----
 
 ## Features
 - **Large 32x32 game board** with static and randomly placed barriers (`#`).
@@ -19,8 +18,6 @@ This is a console-based grid game implemented in C++ where the player controls a
 - Win condition: Covering all empty spaces.
 - Lose condition: Collision with either ghost.
 
----
-
 ## How to Play
 - Compile the program using a C++ compiler that supports Windows-specific headers (`windows.h`).
 - Run the executable in a Windows terminal.
@@ -30,7 +27,6 @@ This is a console-based grid game implemented in C++ where the player controls a
 - The goal is to cover all open spots on the board (denoted by `.`).
 - The game ends when you lose all lives or win by clearing the board.
 
----
 
 ## Code Structure Highlights
 - **Board Initialization:** The board is a 2D char array with walls (`#`), empty spaces (`.`), player, and ghosts.
@@ -39,8 +35,6 @@ This is a console-based grid game implemented in C++ where the player controls a
 - **Ghost AI:** Different ghost movement functions depending on difficulty.
 - **Rendering:** Uses Windows console API for colored output and cursor positioning to redraw the board efficiently.
 - **Game Logic:** Checks for win/lose conditions every cycle.
-
----
 
 ## Requirements
 - Windows OS (due to usage of `<windows.h>` and console color functions).
